@@ -28,6 +28,3 @@ if (!(length(na.2005)==length(na.2010)) & (length(na.2005)==length(na.2015)) & (
 rm(na.2005,na.2010,na.2015)
 gc()
 
-write.csv(x = dim(df)[1],file = paste(outDir,"nrows.txt",sep=""),row.names=FALSE,quote=FALSE)
-
-write.csv(df,file=paste(outDir,"cell_data.csv",sep=""),row.names=FALSE,quote=FALSE)
