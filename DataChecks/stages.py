@@ -21,4 +21,5 @@ STAGES = [ ('1', R,              '1_UnpackData.R'),
            ('2', R,              '2_CheckData.R'),
            ('3', arcpy,          '3_CheckData2.py'),
            ('4', R,              '4_CheckData3.R'),
+           ('5', R,              '5_MapData.R'),
          ]
