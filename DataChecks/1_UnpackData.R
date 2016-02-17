@@ -8,7 +8,9 @@ if (unAdj){
   fname2 <- "/gpw-v4-population-density-adjusted-to-2015-unwpp-country-totals-2010.zip"
   fname3 <- "/gpw-v4-population-density-adjusted-to-2015-unwpp-country-totals-2015.zip"
 } else {
-  
+  fname1 <- "/gpw-v4-population-density-2005.zip"
+  fname2 <- "/gpw-v4-population-density-2010.zip"
+  fname3 <- "/gpw-v4-population-density-2015.zip"
 }
 
 cat('2005\n')

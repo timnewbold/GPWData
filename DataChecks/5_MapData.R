@@ -23,6 +23,8 @@ plot(outline,border=NA,col="#666666")
 
 image(ratio0510,breaks=c(0,0.5,1,2,5,25,50),col=brewer.pal(11,"RdYlBu")[c(9,8,4,3,2,1)],add=TRUE)
 
+legend(-180,20,c("0-0.5","0.5-1.0","1.0-2.0","2.0-5.0","2.0-25.0",">25.0"),fill=brewer.pal(11,"RdYlBu")[c(9,8,4,3,2,1)])
+
 invisible(dev.off())
 
 cat("Reading map for 2010-2015\n")
@@ -38,5 +40,7 @@ par(mar=c(0,0,0,0))
 plot(outline,border=NA,col="#666666")
 
 image(ratio1015,breaks=c(0,0.5,1,2,5,25,50),col=brewer.pal(11,"RdYlBu")[c(9,8,4,3,2,1)],add=TRUE)
+
+legend(-180,20,c("0-0.5","0.5-1.0","1.0-2.0","2.0-5.0","2.0-25.0",">25.0"),fill=brewer.pal(11,"RdYlBu")[c(9,8,4,3,2,1)])
 
 invisible(dev.off())

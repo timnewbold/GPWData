@@ -10,7 +10,9 @@ if (unAdj){
   fname2 <- "gpw-v4-population-density-adjusted-to-2015-unwpp-country-totals_2010.tif"
   fname3 <- "gpw-v4-population-density-adjusted-to-2015-unwpp-country-totals_2015.tif"
 } else {
-  
+  fname1 <- "gpw-v4-population-density_2005.tif"
+  fname2 <- "gpw-v4-population-density_2010.tif"
+  fname3 <- "gpw-v4-population-density_2015.tif"
 }
 
 cat('Reading data: 2005\n')

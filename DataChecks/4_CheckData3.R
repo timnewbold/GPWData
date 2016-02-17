@@ -34,7 +34,7 @@ title(ylab="Population density (2015)")
 
 par(mar=c(3,4,0.2,0.2))
 
-brks <- c(0,0.5,0.75,1,1.25,1.5,2,5,10,15,20,25,33)
+brks <- c(0,0.5,0.75,1,1.25,1.5,2,5,10,15,20,25,100)
 
 h <- hist(log(pd.data$ratio0510+1),breaks=log(brks+1),plot = FALSE)
 
